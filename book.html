@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="book.css" />
+    <link rel="stylesheet" href="pharma.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+        <span class="main_box">
+            <input type="checkbox" id="check" />
+            <div class="btn_one">
+              <label for="check">
+                <i class="fa-solid fa-bars"></i>
+              </label>
+            </div>
+      
+            <div class="sidebar_menu">
+              <div class="logo">
+                <a href="#">Dr. ANTHONY MEDICALS</a>
+              </div>
+      
+              <div class="btn_two">
+                <label for="check" style="color: rgb(26, 25, 25)">
+                  <i class="fa-solid fa-xmark"></i>
+                </label>
+              </div>
+      
+              <div class="menu">
+                <ul>
+                  <li>
+                    <i class="fa-solid fa-image"></i>
+                    <a href="#">Gallery</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <a href="#">Shortcuts</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-photo-film"></i>
+                    <a href="#">Exhibits</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <a href="#">Events</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-store"></i>
+                    <a href="#">Store</a>
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-phone"></i>
+                    <a href="#">Contact</a>
+                  </li>
+                  <li>
+                    <i class="fa-regular fa-comments"></i>
+                    <a href="#">Feedback</a>
+                  </li>
+                </ul>
+              </div>
+      
+              <div class="social_media">
+                <ul>
+                  <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </ul>
+              </div>
+            </div>
+          </span>
+          <div id="name">
+            <h1>Doctor Finder</h1>
+            <div>
+              <img src="f&s.jpg" id="pic" width="100px" height="100px">
+            </div>
+          </div>
+          </header>
+          <main>
+            <br>
+            <hr>
+            <nav>
+            <div id="flex">
+              <div class="ladder"><button class="b">Top Doctors</button></div>
+              <div class="ladder"><button class="b">Neurologist </button></div>
+              <div class="ladder"><button class="b">Psychologist</button></div>
+              <div class="ladder"><button class="b">Dermatologist</button></div>
+              <div class="ladder"><button class="b">Cardiologist </button></div>
+              <div class="ladder">
+                <select class="b">
+                  <button><option>More..</option></button>
+                  <option><a href="">Enquiry</a></option>
+                  <OPTION><a href="">Medical shops</a></OPTION>
+                </select>
+              </div>
+              <div class="ladder"><a href="login.html"><button class="b" id="log">Log IN</button></a></div>
+              <div class="ladder"><a href="signup.html"><button class="b" id="sign">Sign UP</button></a></div>
+            </div>
+          </nav>
+          <hr>
+          <br>
+          
+    </header>
+    <body>
+    <div id="appointment">
+    <div id="appointment1">
+      <form >
+        <br>
+        <h2 id="appoint123">-:<u>APPOINTMENT BOOKING</u>:-</h2>
+        <br>
+        <br>
+        <div class="booking">
+        <label id="name141"> Name:-
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input placeholder="Enter your Name" />
+        </label>
+        &nbsp;
+        <br>
+        <br>
+        <label id="age"> Age :- 
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input placeholder="Enter your Age" type="number"/>
+        </label>
+      </div>
+      <div class="booking">
+        <label id="specialist">Specialist :-
+          <select>
+            <button><option>Select</option></button>
+            <option>Neurologist</option>
+            <option>Psychologist</option>
+            <option>Dermatologist</option>
+            <option>Cardiologist</option>
+            <option>Gastroenterologist</option>
+          </select>
+        </label>
+      </div>
+      <div class="booking">
+        <label id="age"> Place:-
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input placeholder="Enter your place" />
+        </label> 
+        <br>
+        <br>
+        <label id="age">Timing:-
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <select>
+          <button><option>Time</option></button>
+          <option>8am</option>
+          <option>10am</option>
+          <option>12pm</option>
+          <option>2pm</option>
+          <option>4pm</option>
+        </select>
+        </label>
+      </div>   
+      <label id="phone">Phone No.:-
+        <input placeholder="Enter Contact Number">
+
+      </label> 
+      <br>
+      <br>
+      <br>
+      <button id="register">BOOK APPOINTMENT</button>
+        </form>
+
+    </div>
+    </div>
+    </body>
+    <footer>
+    </footer>
+    <script src="book.js"></script>
+  </body>
+</html>

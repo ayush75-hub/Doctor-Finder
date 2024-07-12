@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Project</title>
+    <link rel="stylesheet" href="pharma.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+    <span class="main_box">
+      <input type="checkbox" id="check" />
+      <div class="btn_one">
+        <label for="check">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+      </div>
+
+      <div class="sidebar_menu">
+        <div class="logo">
+          <a href="#">Doctor Finder</a>
+        </div>
+
+        <div class="btn_two">
+          <label for="check" style="color: rgb(26, 25, 25)">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li>
+              <i class="fa-solid fa-image"></i>
+              <a href="#">Gallery</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              <a href="#">Shortcuts</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-photo-film"></i>
+              <a href="#">Exhibits</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-calendar-days"></i>
+              <a href="#">Events</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-store"></i>
+              <a href="#">Store</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <a href="#">Contact</a>
+            </li>
+            <li>
+              <i class="fa-regular fa-comments"></i>
+              <a href="#">Feedback</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="social_media">
+          <ul>
+            <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </ul>
+        </div>
+      </div>
+    </span>
+    <div id="name">
+      <h1>Doctor Finder</h1>
+      <div>
+        <img src="f&s.jpg" id="pic" width="100px" height="100px">
+      </div>
+    </div>
+    </header>
+    <main>
+      <br>
+      <hr>
+      <nav>
+      <div id="flex">
+        <div class="ladder"><button class="b">Top Doctors</button></div>
+        <div class="ladder"><button class="b">Neurologist </button></div>
+        <div class="ladder"><button class="b">Psychologist</button></div>
+        <div class="ladder"><button class="b">Dermatologist</button></div>
+        <div class="ladder"><button class="b">Cardiologist </button></div>
+        <div class="ladder">
+          <select class="b">
+            <button><option>More..</option></button>
+            <option><a href="">Enquiry</a></option>
+            <OPTION><a href="">Medical shops</a></OPTION>
+          </select>
+        </div>
+        <div class="ladder"><a href="login.html"><button class="b" id="log">Log IN</button></a></div>
+        <div class="ladder"><a href="signup.html"><button class="b" id="sign">Sign UP</button></a></div>
+      </div>
+    </nav>
+    <hr>
+    <br>
+    <ul style="display: flex">
+      <li class="stor">
+        <a href="#" class="stor1"> <img src="doc.webp" class="story"/> </a>
+      </li>
+      <li class="stor">
+        <a href="" class="stor1"> <img src="doc.webp" class="story"/> </a>
+      </li>
+      <li class="stor">
+        <a href="" class="stor1"> <img src="doc.webp" class="story"/> </a>
+      </li>
+      <li class="stor">
+        <a href="" class="stor1"> <img src="doc.webp" class="story"/> </a>
+      </li>
+      <li class="stor">
+        <a href="" class="stor1"> <img src="OIP.jpg" class="story"/> </a>
+      </li>
+      
+    </ul>
+      <div id="Search">
+        <input type="text" placeholder="Search..." id="s1">
+        <button id="s2"><h4>Search</h4></button>
+      </div>
+      <br>
+      <form action="appoint.html">
+      <div id="appoint">
+        <p id="appoint1">Book Appointments</p>
+        <br>
+        <button id="appoint2" type="submit"><a href=book.html>Click ME</a></button>
+      </div>
+    </form>
+    <br>
+    <br>
+      <h2 style="text-align: center;">-:TOP NEUROLOGIST:-</h2>
+      <h4 style="text-align: center;"> (Recommended)</h4>
+      <br>
+      <!-- <br> -->
+      <div class="flex1">
+        <div class="batch"><img src="doc1.jpg" class="pic1">
+          <p>
+            <h3>
+              ANURAG SEMWAL
+            </h3>
+            <h4>
+              5 Years Experience
+              <br>
+              Lucknow,U.P.
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc1.jpg" class="pic1">
+          <p>
+            <h3>
+              ANIKET GUPTA
+            </h3>
+            <h4>
+              4 Years Experience
+              <br>
+              Delhi
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc1.jpg" class="pic1">
+          <p>
+            <h3>
+              ALOK BHASKAR
+            </h3>
+            <h4>
+              5 Years Experience
+              <br>
+              Gurgaon
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc1.jpg" class="pic1">
+          <p>
+            <h3>
+              PRASHANT SINGH
+            </h3>
+            <h4>
+              2 Years Experience
+              <br>
+              Chandigarh
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc1.jpg" class="pic1">
+          <p>
+            <h3>
+              SACHIN RAWAT
+            </h3>
+            <h4>
+              8 Years Experience
+              <br>
+              Kerala
+            </h4>
+          </p>
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <h2 style="text-align: center;">-:TOP PSYCHOLOGIST:-</h2>
+      <h4 style="text-align: center;"> (Recommended)</h4>
+      <br>
+      <!-- <br> -->
+      <div class="flex1">
+        <div class="batch"><img src="doc2.jpg" class="pic1">
+          <p>
+            <h3>
+              AYUSH KATIYAR
+            </h3>
+            <h4>
+              3 Years Experience
+              <br>
+              Lucknow
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc2.jpg" class="pic1">
+          <p>
+            <h3>
+              PRATYUSH JAIN
+            </h3>
+            <h4>
+              5 Years Experience
+              <br>
+              Kannauj
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc2.jpg" class="pic1">
+          <p>
+            <h3>
+              AKASH VERMA
+            </h3>
+            <h4>
+              11 Years Experience
+              <br>
+              Jaipur
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc2.jpg" class="pic1">
+          <p>
+            <h3>
+              GAURAV SHUKLA
+            </h3>
+            <h4>
+              6 Years Experience
+              <br>
+              Andhra Pradesh
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc2.jpg" class="pic1">
+          <p>
+            <h3>
+              HARSH RAJPUT
+            </h3>
+            <h4>
+              6 Years Experience
+              <br>
+              Mumbai
+            </h4>
+          </p>
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <h2 style="text-align: center;">-:TOP DERMATOLOGIST:-</h2>
+      <h4 style="text-align: center;"> (Recommended)</h4>
+      <br>
+      <!-- <br> -->
+      <div class="flex1">
+        <div class="batch"><img src="doc5.jpg" class="pic1">
+          <p>
+            <h3>
+              PRAKASH RAI
+            </h3>
+            <h4>
+              2 Years Experience
+              <br>
+              Mumbai
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc5.jpg" class="pic1">
+          <p>
+            <h3>
+              ARPIT RAI    
+             </h3>
+            <h4>
+              12 Years Experience
+              <br>
+              Jaipur
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc5.jpg" class="pic1">
+          <p>
+            <h3>
+              ANUV JAIN
+            </h3>
+            <h4>
+              8 Years Experience
+              <br>
+              Kanpur
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc5.jpg" class="pic1">
+          <p>
+            <h3>
+              AKSHAT YADAV 
+            </h3>
+            <h4>
+              12 Years Experience
+              <br>
+              Jaipur
+            </h4>
+
+          </p>
+        </div>
+        <div class="batch"><img src="doc5.jpg" class="pic1">
+          <p>
+            <h3>
+              NEERAJ SHANKAR
+            </h3>
+            <h4>
+              5 Years Experience
+              <br>
+              Lucknow
+            </h4>
+          </p>
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <h2 style="text-align: center;">-:TOP CARDIOLOGIST:-</h2>
+      <h4 style="text-align: center;"> (Recommended)</h4>
+      <br>
+      <!-- <br> -->
+      <div class="flex1">
+        <div class="batch"><img src="doc1.jpg" class="pic1">
+          <p>
+            <h3>
+              SRAJAN SHUKLA
+            </h3>
+            <h4>
+              5 Years Experience
+              <br>
+              Lucknow
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc1.jpg" class="pic1">
+          <p>
+            <h3>
+              SACHIN TENDULKAR   
+            </h3>
+            <h4>
+              11 Years Experience
+              <br>
+              Delhi
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc1.jpg" class="pic1">
+          <p>
+            <h3>
+              AMAN DATTA
+            </h3>
+            <h4>
+              7 Years Experience
+              <br>
+              Amritsar
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc1.jpg" class="pic1">
+          <p>
+            <h3>
+              SRAJAN SRIVASTAVA
+            </h3>
+            <h4>
+              5 Years Experience
+              <br>
+              Gujarat
+            </h4>
+          </p>
+        </div>
+        <div class="batch"><img src="doc1.jpg" class="pic1">
+          <p>
+            <h3>
+              ANURAG SEMWAL
+            </h3>
+            <h4>
+              5 Years Experience
+              <br>
+              Mumbai
+            </h4>
+          </p>
+        </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <form action="appoint.html">
+      <div id="appoint">
+        <p id="appoint1">Book Appointments</p>
+        <br>
+        <button id="appoint2" type="submit"><a href=book.html>Click ME</a></button>
+      </div>
+    </form>
+    </main>
+    <br>
+    <br>
+
+    <footer>
+        <div class="details">
+            <span>
+                <div><u>Number of Faculties</u></div> <div>15</div>
+            </span>
+            <br>
+            <span>
+                <div><u>Number of Doctors</u> </div><div>213</div>
+            </span>
+            <br>
+            <span>
+                <div><u>Number of Nurses</u></div><div>415</div>
+            </span>
+            <br>
+            <span>
+                <div><u>Number of Helping Staff</u></div><div>500</div>
+            </span>
+            <br>
+            <span>
+                <div><u>Number of Successful Appointments</u></div><div>23000</div>
+            </span>
+        </div>
+    </footer>
+  </body>
+</html>
